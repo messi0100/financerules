@@ -7,10 +7,12 @@ import { QuantComponent } from './quant/quant.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import {PortfolioCardComponent} from './portfolio/portfolioCard.component';
 import { OurworkComponent } from './ourwork/ourwork.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 
 @NgModule({
-  declarations: [ StrategyComponent, QuantComponent, PortfolioComponent, PortfolioCardComponent, OurworkComponent ],
+  declarations: [ StrategyComponent, QuantComponent, PortfolioComponent, PortfolioCardComponent, OurworkComponent, LoginComponent, RegisterComponent ],
   imports: [
     CommonModule, 
     HomeModule,
