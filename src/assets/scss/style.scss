@@ -60,9 +60,6 @@
     transform: translateX(-50%) translateZ(0) scaleY(1);
   }
 }
-
-@import "./vars.scss";
-
 /*======================================
      6. SERVICES
 ========================================*/
@@ -78,7 +75,7 @@
 /*======================================
          10. TEAM
 ========================================*/
-/*======================================
+/*=======================================
      11. OUR PROCESS
 =========================================*/
 /*=======================================
@@ -105,6 +102,9 @@
 /*==================================
 STYLE SWITHER - Demo purpose only
 ==================================*/
+
+@import "./vars.scss";
+
 body {
   font-family: "Rubik", sans-serif;
   overflow-x: hidden !important;
@@ -242,7 +242,7 @@ b {
   padding-bottom: 80px;
   position: relative;
 }
-.section-lg { 
+.section-lg {
   padding: 100px 0;
 }
 .section-title {
@@ -373,7 +373,7 @@ iframe {
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   .navbar-brand {
-    text-transform: uppercase;
+   
     color: #fff !important;
     font-weight: 700;
     letter-spacing: 2px;
@@ -423,7 +423,7 @@ iframe {
   .navbar-custom {
     margin-top: 0px;
     padding: 10px 0px;
-    background-color: #272a33;
+    background-color: #332729;
     -moz-box-shadow: 0 10px 33px rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: 0 10px 33px rgba(0, 0, 0, 0.1);
     box-shadow: 0 10px 33px rgba(0, 0, 0, 0.1);
@@ -438,27 +438,27 @@ iframe {
 .nav {
   .open {
     > a {
-      background-color: transparent;
+      background-color: blue;
       border-color: #337ab7;
       &:focus {
         background-color: transparent;
         border-color: #337ab7;
       }
       &:hover {
-        background-color: transparent;
+        background-color: blue;
         border-color: #337ab7;
       }
     }
   }
 }
 .navbar-custom.navbar-white {
-  background-color: #fff;
+  background-color: #000000;
   padding: 10px 0;
   box-shadow: 0 10px 33px rgba(0, 0, 0, 0.1);
   .navbar-nav {
     li {
       a {
-        color: #393f4f !important;
+        color: #000000 !important;
       }
     }
   }
@@ -1229,6 +1229,7 @@ ul.pattern {
     display: none; 
   }
 }
+
 
 .hoverable {
   transition: $transition-time;
