@@ -4,17 +4,18 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyBvnE4OiHkYXCRZU5s23dYMsWf19N4O0gU",
-    authDomain: "kyra-2fe26.firebaseapp.com",
-    databaseURL: "https://kyra-2fe26.firebaseio.com",
-    projectId: "kyra-2fe26",
-    storageBucket: "kyra-2fe26.appspot.com",
-    messagingSenderId: "507148875436",
-    appId: "1:507148875436:web:05228e8e86118a6c2fd109",
-    measurementId: "G-HNJG9M62T7"
+    apiKey: "AIzaSyBTmn-Jlp8x53NFTTONw84BvoR0bgYSS48",
+    authDomain: "financerules-afda9.firebaseapp.com",
+    databaseURL: "https://financerules-afda9.firebaseio.com",
+    projectId: "financerules-afda9",
+    storageBucket: "financerules-afda9.appspot.com",
+    messagingSenderId: "704034717",
+    appId: "1:704034717:web:2a668b0c46f852115c2174",
+    measurementId: "G-09CQ3QMQRK"
   },
 
-};
+  };
+
 
 /*
  * For easier debugging in development mode, you can import the following file
