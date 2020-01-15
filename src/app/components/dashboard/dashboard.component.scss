@@ -1,11 +1,11 @@
-project_container {
+    .project_container {
 
     display: flex;
     flex-wrap: wrap;
     padding: 16pt 0;
     max-width: 720pt;
     margin: auto;
-  
+
     .card {
   
         //margin: 75pt auto 0; // This was for the standalone projects page, but it can't be disabled on the home page through scss
