@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { HomeModule } from './home/home.module';
 import { PagesRoutingModule } from './pages-routing.module';
 import { OurworkComponent } from './ourwork/ourwork.component';
@@ -17,12 +18,15 @@ import { AngularFireAuthModule } from "@angular/fire/auth";
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from 'src/environments/environment';
 import { AuthService } from '../services/auth.service';
+import { ContactusComponent } from './contactus/contactus.component';
 @NgModule({
-  declarations: [ OurworkComponent, VerifyEmailComponent, LoginComponent, ForgotPasswordComponent, DashboardComponent, RegisterComponent, Newpage2Component, SignInComponent, SignUpComponent],
+  declarations: [ OurworkComponent, VerifyEmailComponent, LoginComponent, ForgotPasswordComponent, DashboardComponent, RegisterComponent, Newpage2Component, SignInComponent, SignUpComponent, ContactusComponent],
   imports: [
-    CommonModule, 
+    CommonModule,
+    FormsModule, 
     HomeModule,
     PagesRoutingModule,
+    
     
     AngularFireAuthModule,
     AngularFirestoreModule,

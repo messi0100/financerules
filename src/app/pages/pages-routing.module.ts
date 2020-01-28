@@ -11,6 +11,7 @@ import { OurworkComponent } from './ourwork/ourwork.component';
 
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { ContactusComponent } from './contactus/contactus.component';
 
 
 const routes: Routes = [
@@ -25,7 +26,9 @@ const routes: Routes = [
   { path: 'register-user', component: SignUpComponent, },
   { path: 'dashboard', component: DashboardComponent,  },
   { path: 'forgot-password', component: ForgotPasswordComponent, },
-  { path: 'verify-email-address', component: VerifyEmailComponent,  }
+  { path: 'verify-email-address', component: VerifyEmailComponent,  },
+  { path: 'contactus', component: ContactusComponent  }
+
 
 
 

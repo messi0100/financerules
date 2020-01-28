@@ -12,7 +12,12 @@ export const environment = {
     messagingSenderId: "704034717",
     appId: "1:704034717:web:2a668b0c46f852115c2174",
     measurementId: "G-09CQ3QMQRK"
+    
   },
+  contentful: {
+    spaceId: 'iuoo9svo7r96',
+    token: 'YOUR_TOKEN'
+  }
 
   };
 
