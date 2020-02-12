@@ -19,8 +19,9 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from 'src/environments/environment';
 import { AuthService } from '../services/auth.service';
 import { ContactusComponent } from './contactus/contactus.component';
+import { CalendarComponent } from './calendar/calendar.component';
 @NgModule({
-  declarations: [ OurworkComponent, VerifyEmailComponent, LoginComponent, ForgotPasswordComponent, DashboardComponent, RegisterComponent, Newpage2Component, SignInComponent, SignUpComponent, ContactusComponent],
+  declarations: [ OurworkComponent, VerifyEmailComponent, LoginComponent, ForgotPasswordComponent, DashboardComponent, RegisterComponent, Newpage2Component, SignInComponent, SignUpComponent, ContactusComponent, CalendarComponent],
   imports: [
     CommonModule,
     FormsModule, 
