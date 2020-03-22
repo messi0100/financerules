@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+
+p {
+  text-align: center;
+}
+
 html,
 body {
   margin: 0;

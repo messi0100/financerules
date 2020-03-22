@@ -19,7 +19,7 @@ export class ContactusComponent implements OnInit {
   async onSubmit(f) {
     console.log('form submitted is ', f, f.value /*, this.email, this.subject, this.comments, this.name*/)
     // const result = await fetchPostUrlEncoded('https://formspree.io/johnsimerlink@gmail.com', f.value)
-    post('https://formspree.io/aarian.nayak@gmail.com', f.value)
+    post('https://formspree.io/varun.nayak@gmail.com', f.value)
     // console.log('result is ', result);
     // fetch('https://google.com')
   }

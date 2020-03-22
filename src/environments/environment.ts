@@ -15,7 +15,7 @@ export const environment = {
     
   },
   contentful: {
-    spaceId: 'iuoo9svo7r96',
+    spaceId: 'gxlx1a828hur',
     token: 'YOUR_TOKEN'
   }
 

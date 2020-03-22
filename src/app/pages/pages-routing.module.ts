@@ -8,6 +8,10 @@ import { DashboardComponent } from 'src/app/components/dashboard/dashboard.compo
 import { ForgotPasswordComponent } from 'src/app/components/forgot-password/forgot-password.component';
 import { VerifyEmailComponent } from 'src/app/components/verify-email/verify-email.component';
 import { OurworkComponent } from './ourwork/ourwork.component'; 
+import { AboutusComponent} from './aboutus/aboutus.component';
+import { AboutUsComponent} from './about-us/about-us.component';
+import { Pricing2Component} from './pricing2/pricing2.component';
+
 
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
@@ -27,7 +31,10 @@ const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent,  },
   { path: 'forgot-password', component: ForgotPasswordComponent, },
   { path: 'verify-email-address', component: VerifyEmailComponent,  },
-  { path: 'contactus', component: ContactusComponent  }
+  { path: 'contactus', component: ContactusComponent,  },
+  { path: 'aboutus', component: AboutusComponent  ,},
+  { path: 'about-us', component: AboutUsComponent  ,},
+  { path: 'pricing2', component: Pricing2Component  }
 
 
 
