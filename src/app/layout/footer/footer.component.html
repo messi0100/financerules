@@ -42,37 +42,3 @@
 
 
 
-<div id="style-switcher"  [style.left] = "switch == 0 ? '0px' : '-189px'">
-  <div>
-      <h3>Select your color </h3>
-      <ul class="pattern">
-          <li>
-              <a (click)="onChangeColor('red')" class="color1" routerLink="#"></a>
-          </li>
-          <li>
-              <a class="color2" (click)="onChangeColor('green')" routerLink="#"></a>
-          </li>
-          <li>
-              <a class="color3"  (click)="onChangeColor('pink')" routerLink="#"></a>
-          </li>
-          <li>
-              <a class="color4"  (click)="onChangeColor('cyan')"  routerLink="#"></a>
-          </li>
-          <li>
-              <a class="color5"  (click)="onChangeColor('purple')"  routerLink="#"></a>
-          </li>
-          <li>
-              <a class="color6"  (click)="onChangeColor('blue')"  routerLink="#"></a>
-          </li> 
-          <li>
-              <a class="color7"  (click)="onChangeColor('orange')"  routerLink="#"></a>
-          </li>
-          <li>
-              <a class="color8" (click)="onChangeColor('yellow')"   routerLink="#"></a>
-          </li>                    
-      </ul>
-  </div>
-  <div class="bottom">
-      <a routerLink="#" class="settings" (click)="onChangeSwitch()"><i class="mdi mdi-settings mdi-spin"></i></a>
-  </div>
-</div>
