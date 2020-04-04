@@ -14,11 +14,6 @@ export const environment = {
     measurementId: "G-09CQ3QMQRK"
     
   },
-  contentful: {
-    spaceId: 'gxlx1a828hur',
-    token: 'YOUR_TOKEN'
-  }
-
   };
 
 
