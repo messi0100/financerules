@@ -30,7 +30,7 @@
     "contentful": "^7.13.1",
     "core-js": "^2.5.4",
     "firebase": "^6.6.2",
-    "marked": "^0.8.0",
+    "marked": "^4.0.10",
     "ng-animate": "^0.3.4",
     "ng-simple-slideshow": "^1.2.9",
     "ngx-scrollspy": "^1.2.1",
