@@ -35,7 +35,7 @@
     "ng-simple-slideshow": "^1.2.9",
     "ngx-scrollspy": "^1.2.1",
     "ngx-youtube-player": "^7.1.1",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "rxjs": "~6.3.3",
     "rxjs-observable": "0.0.7",
     "tslib": "^1.9.0",
